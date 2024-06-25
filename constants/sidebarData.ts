@@ -7,24 +7,24 @@ interface SidebarLink {
   export const sidebar_links: SidebarLink[] = [
     {
       title: "Dashboard",
-      icon: "~/assets/svg/home.svg",
+      icon: "ion:home",
       to: "/",
     },
-    // {
-    //   title: "المخازن",
-    //   icon: "material-symbols:storefront-outline-rounded",
-    //   to: "/TheStores",
-    // },
-    // {
-    //   title: "المواد",
-    //   icon: "solar:box-broken",
-    //   to: "/TheProducts",
-    // },
-    // {
-    //   title: "المواد القادمة",
-    //   icon: "material-symbols:input-circle-rounded",
-    //   to: "/TheIncome",
-    // },
+    {
+      title: "Tables",
+      icon: "ion:stats-chart",
+      to: "/TheTables",
+    },
+    {
+      title: "Billing",
+      icon: "ion:card",
+      to: "/TheBilling",
+    },
+    {
+      title: "RTL",
+      icon: "ion:build",
+      to: "/TheIncome",
+    },
     // {
     //   title: "التالف",
     //   icon: "tabler:box-off",
@@ -47,3 +47,21 @@ interface SidebarLink {
     // },
   ];
   
+
+  export const account_links: SidebarLink[] = [
+    {
+      title: "Profile",
+      icon: "ion:person",
+      to: "/",
+    },
+    {
+      title: "Sign In",
+      icon: "ion:document",
+      to: "/",
+    },
+    {
+      title: "Sign Up",
+      icon: "ion:rocket-sharp",
+      to: "/",
+    },
+];

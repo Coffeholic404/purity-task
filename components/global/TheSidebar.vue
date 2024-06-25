@@ -1,6 +1,7 @@
-<script setup>
-import { sidebar_links } from "~/constants/sidebarData";
-const links = sidebar_links;
+<script setup lang="ts">
+import { sidebar_links, account_links } from "~/constants/sidebarData";
+import { Icon } from "@iconify/vue";
+
 </script>
 
 <template>
@@ -12,16 +13,35 @@ const links = sidebar_links;
             </div>
             <div class=" divider mt-8">
             </div>
-            <ul v-for="menu in links">
-                <li>
-                    <NuxtLink :to="menu.to">
-                        <div>
-                            <Icon :name="menu.icon" />
-                        </div>
-                    </NuxtLink>
-                </li>
-                    
-            </ul>
+        <ul v-for="menu in links">
+          <li class=" border-2 w-[220px] mb-[12px] mx-auto pl-[16px] py-[12px] rounded-[15px]">
+            <NuxtLink :to="menu.to" 
+            :class="{ 'bg-[#1A5CFF]  text-white': isActive(menu.to) }"
+            >
+              <div class="flex gap-3 items-center">
+                <div class=" size-[30px]  grid place-items-center bg-white rounded-xl">
+                    <Icon :icon="menu.icon"  class=" text-teal"/>
+                </div>
+                <p class=" font-semibold text-text tracking-tighter">{{ menu.title }}</p>
+              </div>
+            </NuxtLink>
+          </li>
+        </ul>
+        <div class="">
+            <h1 class=" text-[#1f273] font-bold tracking-tighter mx-auto py-[12px]">ACCOUNT PAGES</h1>
+            <ul v-for="menu in accountLinks">
+          <li class=" border-2 w-[220px] mb-[12px] mx-auto pl-[16px] py-[12px] rounded-[15px]">
+            <NuxtLink :to="menu.to" >
+              <div class="flex gap-3 items-center">
+                <div class=" size-[30px]  grid place-items-center bg-white rounded-xl">
+                    <Icon :icon="menu.icon"  class=" text-teal"/>
+                </div>
+                <p class=" font-semibold text-text tracking-tighter">{{ menu.title }}</p>
+              </div>
+            </NuxtLink>
+          </li>
+        </ul>
+        </div>
         </div>
     </div>
 </template>
