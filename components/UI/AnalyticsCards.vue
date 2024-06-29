@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="card-wrapper">
+    <div class="card-wrapper w-full">
         <div class="container font-roboto grid place-items-center mt-2 px-[30px] w-full">
             <div class="card w-full  p-6  rounded-2xl bg-white flex justify-between mb-4">
                 <div>
@@ -62,6 +62,8 @@
         grid-template-columns: repeat(2, minmax(0px, 1fr));
         gap: 1rem;
         padding-inline:20px;
+        width: 100%;
+
         /* display: flex;
         flex: 1 0 50%;
         flex-wrap: wrap;

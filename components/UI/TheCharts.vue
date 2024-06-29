@@ -20,7 +20,7 @@
                             <p class=" text-text font-bold ">Users</p>
                         </div>
                         <p class=" text-text-gr-700 font-bold text-lg">32,984</p>
-                        <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
+                        <div class="w-full bg-slate-400 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                             <div class="bg-teall h-1.5 rounded-full dark:bg-teall" style="width: 45%"></div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                             <p class=" text-text font-bold ">Users</p>
                         </div>
                         <p class=" text-text-gr-700 font-bold text-lg">32,984</p>
-                        <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
+                        <div class="w-full rounded-full h-1.5 mb-4 bg-slate-400">
                             <div class="bg-teall h-1.5 rounded-full dark:bg-teall" style="width: 45%"></div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                             <p class=" text-text font-bold ">Users</p>
                         </div>
                         <p class=" text-text-gr-700 font-bold text-lg">32,984</p>
-                        <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
+                        <div class="w-full bg-slate-400 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                             <div class="bg-teall h-1.5 rounded-full dark:bg-teall" style="width: 45%"></div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             <p class=" text-text font-bold">Users</p>
                         </div>
                         <p class=" text-text-gr-700 font-bold text-lg">32,984</p>
-                        <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
+                        <div class="w-full bg-slate-400 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                             <div class="bg-teall h-1.5 rounded-full dark:bg-teall" style="width: 45%"></div>
                         </div>
                     </div>

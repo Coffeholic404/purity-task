@@ -13,7 +13,7 @@ const isActive = (to: string) => {
 </script>
 
 <template>
-  <div class="sidebar  w-fit transition-all duration-500 lg:left-0 lg:block  min-h-[100dvh]">
+  <div class="sidebar  w-fit transition-all duration-500 lg:left-0 lg:block  min-h-[100dvh] sticky top-4 left-0">
     <div class="w-full px-5 my-4  h-[calc(-32px_+_100vh)] flex flex-col items-center">
       <div class="flex gap-4 pt-[25px] mb-[12px] text-text-active font-roboto">
         <div class="size-[22px]">

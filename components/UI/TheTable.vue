@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <div class=" p-[30px] font-roboto overflow-scroll">
+    <div class=" p-[30px] font-roboto">
 
 
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table class="w-full text-sm text-left rtl:text-right overflow-scroll">
+            <table class="w-full text-sm text-left rtl:text-right">
                 <caption class="p-5 text-lg  text-left rtl:text-right text-text-gr-700 font-bold bg-white ">
                     Projects
                     <p></p>
