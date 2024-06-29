@@ -14,10 +14,13 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       colors: {
-        "teal": "#4FD1C5",
+        "teall": "#4FD1C5",
         "text": "#A0AEC0",
         "text-active": "#2D3748",
-        "white": "#FFFFFF"
+        "text-gray": "#718096",
+        "text-gr-700" : "#1f2733",
+        "white": "#FFFFFF",
+        "gray" : '#CBD5E0'
     },
   },
   plugins: [],

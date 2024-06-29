@@ -52,16 +52,16 @@ interface SidebarLink {
     {
       title: "Profile",
       icon: "ion:person",
-      to: "/",
+      to: "/TheProfile",
     },
     {
       title: "Sign In",
       icon: "ion:document",
-      to: "/",
+      to: "/TheSignIn",
     },
     {
       title: "Sign Up",
       icon: "ion:rocket-sharp",
-      to: "/",
+      to: "/TheSignUp",
     },
 ];
