@@ -10,6 +10,12 @@ const toggleSidebar = () => {
 
     // emitToggle();
 };
+
+const emit = defineEmits(['toggle-sidebar']);
+
+const emitToggleSidebar = () => {
+  emit('toggle-sidebar');
+};
 </script>
 
 <template>
@@ -40,7 +46,7 @@ const toggleSidebar = () => {
                 <div class="icons flex gap-3 text-text-gray items-center">
                     <Icon icon="ion:person" class=" icon" />
                     <p class="signin font-semibold">Sign In</p>
-                    <button @click="toggleSidebar" class="toggle" >
+                    <button @click="emitToggleSidebar" class="" >
                         <Icon icon="ion:menu" class=" icon !cursor-pointer" />
                 
                     </button>

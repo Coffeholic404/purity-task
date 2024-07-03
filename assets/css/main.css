@@ -41,7 +41,6 @@ body {
 
         .sidebar {
             display: block;
-        
         }
     }
 
@@ -53,14 +52,5 @@ body {
       display: none !important;
     }
 
-     .toogleside {
-        display: block !important;
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        z-index: 9999;
-        background:#ffffff;
-        /* background-color: red !important; */
-    }
   }
 

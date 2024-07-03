@@ -1,7 +1,7 @@
 <template>
      <div class="wrapper w-full min-h-[100dvh]">
         <main class="main w-full">
-            <TheNavbar />
+            <TheNavbar @toggle-sidebar="toggleSidebar"/>
             <div class="h-full ">
                 <UIAnalyticsCards />
                 <UIBigCards />
@@ -13,13 +13,17 @@
             </div>
         </main>
         <aside class="sidebar">
-            <TheSidebar />
+            <TheSidebar :isVisible="isSidebarVisible" />
         </aside>
     </div>
 </template>
 
 <script setup>
+const isSidebarVisible = ref(false);
 
+const toggleSidebar = () => {
+  isSidebarVisible.value = !isSidebarVisible.value;
+};
 </script>
 
 <style lang="scss" scoped>

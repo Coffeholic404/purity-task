@@ -5,6 +5,7 @@ definePageMeta({
 </script>
 
 <template>
+
     <div class="form-wrapper w-full min-h-[100dvh] flex items-center justify-start">
         <section class="sign-in-wrapper font-roboto flex flex-col w-full p-12">
             <h2 class=" leading-[1.2] font-bold text-[32px] text-teall mb-[10px]">Welcome Back</h2>
@@ -75,5 +76,5 @@ definePageMeta({
     .sign-in-wrapper {
         padding-inline: 30rem;
     }
-}
+} 
 </style>
