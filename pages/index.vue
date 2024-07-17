@@ -3,9 +3,17 @@
 </script>
 
 <template>
-   <slot />
+   <div>
+      <div class="h-full ">
+         <UIAnalyticsCards />
+         <UIBigCards />
+         <UITheCharts />
+         <UITheTable />
+      </div>
+      <div>
+         <TheFooter />
+      </div>
+   </div>
 </template>
 
-<style scoped>
-    
-</style>
+<style scoped></style>

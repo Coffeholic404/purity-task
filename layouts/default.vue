@@ -1,31 +1,23 @@
 <template>
-     <div class="wrapper w-full min-h-[100dvh]">
+    <div class="wrapper w-full min-h-[100dvh]">
         <main class="main w-full">
-            <TheNavbar @toggle-sidebar="toggleSidebar"/>
-            <div class="h-full ">
-                <UIAnalyticsCards />
-                <UIBigCards />
-                <UITheCharts />
-                <UITheTable />
-            </div>
-            <div>
-                <TheFooter />
-            </div>
+            <TheNavbar @toggle-sidebar="toggleSidebar" />
+            <slot />
+            
         </main>
         <aside class="sidebar">
             <TheSidebar :isVisible="isSidebarVisible" />
         </aside>
+        <!-- <Test /> -->
     </div>
 </template>
 
 <script setup>
-const isSidebarVisible = ref(false);
+const isSidebarVisible = ref(true);
 
 const toggleSidebar = () => {
-  isSidebarVisible.value = !isSidebarVisible.value;
+    isSidebarVisible.value = !isSidebarVisible.value;
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
