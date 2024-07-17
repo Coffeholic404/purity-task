@@ -45,7 +45,7 @@ const emitToggleSidebar = () => {
                 </form>
                 <div class="icons flex gap-3 text-text-gray items-center">
                     <Icon icon="ion:person" class=" icon" />
-                    <p class="signin font-semibold">Sign In</p>
+                    <NuxtLink to="/SignIn" class="signin font-semibold">Sign In</NuxtLink>
                     <button @click="emitToggleSidebar" class="" >
                         <Icon icon="ion:menu" class=" icon !cursor-pointer" />
                 
